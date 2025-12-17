@@ -1,0 +1,33 @@
+{
+    "COMMON": {
+        "WELCOME": "Welcome",
+        "EDIT": "Edit",
+        "SAVE": "save to reload",
+        "LEARN": "Learn React",
+        "ADD": "Add",
+        "DELETE": "Delete",
+        "UPDATE": "Update",
+        "CANCEL": "Cancel",
+        "CONFIRM": "Confirm",
+        "SUBMIT": "Submit"
+    },
+    "APP": {
+        "TITLE": "React App",
+        "DESCRIPTION": "Web site created using create-react-app"
+    },
+    "LANGUAGE": {
+        "LANGUAGE": "Language",
+        "ENGLISH": "English",
+        "VIETNAMESE": "Vietnamese"
+    },
+    "USER": {
+        "ADD": "Add User",
+        "EDIT": "Edit User",
+        "DELETE": "Delete User",
+        "LIST": "User List",
+        "PROFILE": "User Profile",
+        "NAME": "Name",
+        "EMAIL": "Email",
+        "PASSWORD": "Password"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "COMMON": {
+        "WELCOME": "Chào mừng",
+        "EDIT": "Chỉnh sửa",
+        "SAVE": "và lưu để tải lại",
+        "LEARN": "Học React",
+        "ADD": "Thêm",
+        "DELETE": "Xóa",
+        "UPDATE": "Cập nhật",
+        "CANCEL": "Hủy",
+        "CONFIRM": "Xác nhận",
+        "SUBMIT": "Gửi"
+    },
+    "APP": {
+        "TITLE": "Ứng dụng React",
+        "DESCRIPTION": "Trang web được tạo bằng create-react-app"
+    },
+    "LANGUAGE": {
+        "LANGUAGE": "Ngôn ngữ",
+        "ENGLISH": "Tiếng Anh",
+        "VIETNAMESE": "Tiếng Việt"
+    },
+    "USER": {
+        "ADD": "Thêm người dùng",
+        "EDIT": "Chỉnh sửa người dùng",
+        "DELETE": "Xóa người dùng",
+        "LIST": "Danh sách người dùng",
+        "PROFILE": "Hồ sơ người dùng",
+        "NAME": "Tên",
+        "EMAIL": "Email",
+        "PASSWORD": "Mật khẩu"
+    }
+}
