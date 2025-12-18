@@ -12,6 +12,8 @@ import DashboardHomePage from '../pages/dashboard/DashboardHomePage';
 import UsersPage from '../pages/dashboard/UsersPage';
 import UserDetailPage from '../pages/dashboard/UserDetailPage';
 
+import { RoutePath } from '../constants';
+
 function AppRouter() {
   return (
     <Routes>
@@ -34,7 +36,7 @@ function AppRouter() {
       </Route>
 
       {/* Fallback */}
-      <Route path="*" element={<Navigate to="/" replace />} />
+      <Route path="*" element={<Navigate to={RoutePath.HOME} replace />} />
     </Routes>
   );
 }
