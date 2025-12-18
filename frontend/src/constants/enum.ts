@@ -22,6 +22,7 @@ export enum LanguageCode {
 /**
  * Type helper cho LanguageCode
  */
+
 export type Language = LanguageCode;
 
 // ============================================
@@ -39,6 +40,7 @@ export enum RoutePath {
     DASHBOARD = '/app',
     USERS = '/app/users',
     USER_DETAIL = '/app/users/:userId',
+    INTRO = '/intro',
 }
 
 /**

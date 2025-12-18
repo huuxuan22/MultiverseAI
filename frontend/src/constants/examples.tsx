@@ -21,10 +21,6 @@ import {
     REGEX_PATTERNS,
 } from './index';
 
-// ============================================
-// EXAMPLE 1: Sử dụng RoutePath trong Navigation
-// ============================================
-
 export const NavigationExample: React.FC = () => {
     const navigate = useNavigate();
 
