@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import LanguageSwitcher from '../LanguageSwitcher';
+import { RoutePath } from '../../constants';
 
 function Navbar() {
   return (
@@ -8,7 +9,7 @@ function Navbar() {
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <NavLink
-            to="/"
+            to={RoutePath.HOME}
             className="text-lg font-semibold tracking-tight text-slate-50"
           >
             Multiverse
@@ -16,7 +17,7 @@ function Navbar() {
         </div>
         <nav className="flex items-center gap-4 text-sm text-slate-300">
           <NavLink
-            to="/"
+            to={RoutePath.HOME}
             end
             className={({ isActive }) =>
               `hover:text-white ${isActive ? 'text-white font-medium' : ''}`
@@ -25,7 +26,7 @@ function Navbar() {
             Home
           </NavLink>
           <NavLink
-            to="/app"
+            to={RoutePath.DASHBOARD}
             className={({ isActive }) =>
               `hover:text-white ${isActive ? 'text-white font-medium' : ''}`
             }
@@ -33,7 +34,7 @@ function Navbar() {
             Dashboard
           </NavLink>
           <NavLink
-            to="/login"
+            to={RoutePath.LOGIN}
             className={({ isActive }) =>
               `hover:text-white ${isActive ? 'text-white font-medium' : ''}`
             }
